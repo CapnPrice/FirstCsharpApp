@@ -11,8 +11,8 @@ using testapi.Data;
 namespace testapi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230106095010_intialMigration")]
-    partial class intialMigration
+    [Migration("20230106233121_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

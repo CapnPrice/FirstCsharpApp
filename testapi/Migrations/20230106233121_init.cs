@@ -5,7 +5,7 @@
 namespace testapi.Migrations
 {
     /// <inheritdoc />
-    public partial class intialMigration : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
